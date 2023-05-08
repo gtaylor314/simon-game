@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Play Simon!</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/simonstyles.css">
+    </head>
+    <body>
+        <h1>Press Any Key to Start</h1>
+        <div class="container">
+            <p>
+                Instructions: This game is based on the electronic, short-term memory game, Simon. Unlike Simon, you will not 
+                be given a complete pattern to replicate. Instead, you will be given the next piece of the pattern with each level. 
+                You will need to remember this pattern from level to level until you make an error. <br><br> For example, at the 
+                start of the game (level 1), you see the yellow button flash. You press the yellow button and then the green 
+                button flashes (level 2). You must press the yellow button and then the green button to progress to level 3. The 
+                next colored button flashes (level 3) and, again, you must press the yellow button, the green button, and so on. 
+                <br><br> See how far you get! I hope you enjoy it!
+            </p>
+            <div>
+                <button id="green" type="button" class="green"></button>
+                <button id="red" type="button" class="red"></button>
+            </div>
+            <div>
+                <button id="yellow" type="button" class="yellow"></button>
+                <button id="blue" type="button" class="blue"></button>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="js/simongame.js" charset="utf-8"></script>
+    </body>
+</html>

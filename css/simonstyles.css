@@ -1,0 +1,59 @@
+/********** Element Selectors **********/
+body {
+    background-color: #011F3F;
+    text-align: center;
+}
+
+button {
+    border: solid 10px #000;
+    border-radius: 20%;
+    height: 220px;
+    margin: 25px;
+    width: 220px;
+}
+
+h1 {
+    color: #FEF2BF;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+}
+
+p {
+    color: #FEF2BF;
+    font-family: sans-serif;
+    font-size: 1.10rem;
+}
+
+/*********** Class Selectors ***********/
+.blue {
+    background-color: blue;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.game-over {
+    background-color: red;
+    opacity: .8;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/**** Override Other Class Selectors ****/
+.clicked {
+    background-color: grey;
+    box-shadow: 0 0 20px white;
+}
